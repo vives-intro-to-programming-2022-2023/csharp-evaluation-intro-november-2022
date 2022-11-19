@@ -44,18 +44,10 @@ jobs:
       run: dotnet test --no-restore --no-build --configuration $config --logger:"liquid.md;LogFileName=${{github.workspace}}/${{ matrix.solution }}_report.md;Title=Test Report ${{ matrix.solution }};"
       working-directory: ${{ matrix.solution }}
       
-    # Commit the report to the repo
-    - name: Commit files
-      if: ${{always()}}
-      run: |
-        git config --local user.name "xunit"
-        git add .
-        git commit -m "Update the test reports"
-    
-    # Push changes to the remote
-    - name: Push changes # push the output folder to your repo
-      uses: ad-m/github-push-action@master
-      if: ${{always()}}
+    # Store result as an artifact
+    - name: Archive xunit report
+      uses: actions/upload-artifact@v3
+
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        # force: true
+        name: xunit-report
+        path: ${{github.workspace}}/${{ matrix.solution }}_report.md
