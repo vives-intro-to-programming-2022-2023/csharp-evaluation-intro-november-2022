@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        solution: ['RateMySetup', 'LabradorGoesWoof']
+        solution: [ 'RateMySetup', 'LabradorGoesWoof', 'RockPaperScissors' ]
       fail-fast: false    # Don't stop on fail (of tests)
       max-parallel: 1     # Don't run parallel as it will create push conflict
 
@@ -48,7 +48,6 @@ jobs:
     - name: Set User Repo Name Env Var
       if: always()
       run: echo "USER_REPO_NAME=$(echo $GITHUB_REPOSITORY | awk -F / '{print $2}')" >> $GITHUB_ENV
-      # shell: bash
 
     # Store result as an artifact
     - name: Archive xunit report

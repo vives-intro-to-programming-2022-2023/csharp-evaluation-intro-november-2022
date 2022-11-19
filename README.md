@@ -48,5 +48,6 @@ Vervolgens dien je ook naar de GitHub pagina te surfen en te zorgen dat alles on
 
 | Challenge | Description | Percentage |
 | --- | --- | :---: |
+| [Rock Paper Scissors](./RockPaperScissors/README.md) | Implementeer blad - steen - schaar| `34%` |
 | [Rate My Setup](./RateMySetup/README.md) | Genereer een beoordeling van een dienst of product | `33%` |
 | [Labrador Goes Woof](./LabradorGoesWoof/README.md) | Genereer een beoordeling van een dienst of product | `33%` |
