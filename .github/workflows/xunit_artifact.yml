@@ -45,7 +45,7 @@ jobs:
       working-directory: ${{ matrix.solution }}
       
     # All steps after this one will have env variable `USER_REPO_NAME` passed to them.
-    - run: echo ::set-env name=USER_REPO_NAME::$(echo $GITHUB_REPOSITORY | awk -F / '{print $2}')
+    - run: echo "{USER_REPO_NAME}={dude}" >> $GITHUB_ENV
       shell: bash
 
     # Store result as an artifact
