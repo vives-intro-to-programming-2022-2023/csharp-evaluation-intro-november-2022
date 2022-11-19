@@ -44,11 +44,15 @@ jobs:
       run: dotnet test --no-restore --no-build --configuration $config --logger:"liquid.md;LogFileName=${{github.workspace}}/${{ matrix.solution }}_report.md;Title=Test Report ${{ matrix.solution }};"
       working-directory: ${{ matrix.solution }}
       
+    # All steps after this one will have env variable `USER_REPO_NAME` passed to them.
+    - run: echo ::set-env name=USER_REPO_NAME::$(echo $GITHUB_REPOSITORY | awk -F / '{print $2}')
+      shell: bash
+
     # Store result as an artifact
     - name: Archive xunit report
       if: always()
       uses: actions/upload-artifact@v3
 
       with:
-        name: xunit-report-$(echo ${{github.repository}} | awk -F / '{print $2}' )
+        name: xunit-report-$GITHUB_REPOSITORY
         path: ${{github.workspace}}/${{ matrix.solution }}_report.md
