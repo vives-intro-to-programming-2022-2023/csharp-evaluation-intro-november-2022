@@ -46,6 +46,7 @@ jobs:
       
     # Store result as an artifact
     - name: Archive xunit report
+      if: always()
       uses: actions/upload-artifact@v3
 
       with:
