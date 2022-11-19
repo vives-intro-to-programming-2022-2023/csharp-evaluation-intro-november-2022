@@ -48,4 +48,5 @@ Vervolgens dien je ook naar de GitHub pagina te surfen en te zorgen dat alles on
 
 | Challenge | Description | Percentage |
 | --- | --- | :---: |
-| [Rate My Setup](./RateMySetup/README.md) | Genereer een beoordeling van een dienst of product | `25%` |
+| [Rate My Setup](./RateMySetup/README.md) | Genereer een beoordeling van een dienst of product | `33%` |
+| [Labrador Goes Woof](./LabradorGoesWoof/README.md) | Genereer een beoordeling van een dienst of product | `33%` |

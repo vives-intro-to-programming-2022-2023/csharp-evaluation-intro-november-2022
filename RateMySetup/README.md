@@ -18,8 +18,6 @@ Om dit systeem gebruiksvriendelijk te maken en om er voor te zorgen dat het ook 
 
 Merk op dat de string telkens begint met `<` en eindigt met `>`. Daarnaast dien je lege "sterren" een underscore `_` te gebruiken
 
-Je vindt dit allemaal terug in de methode `Rate` in `RatingGenerator.cs`.
-
 De methode die je dient te implementeren is de `Rate` methode in `RatingGenerator.cs`.
 
 Jouw opdracht bestaat uit volgende taken (`View => TaskList`):
@@ -28,8 +26,6 @@ Jouw opdracht bestaat uit volgende taken (`View => TaskList`):
 2. Bouw de string op volgens het opgegeven formaat (hint: maak gebruik van een loop-structuur)
 3. Geef de resulterende string terug (geen `Console.WriteLine` hier!)
 4. Uitzondering - Indien maximum `0` is of stars groter is dan maximum dien je als resultaat `"<>"` terug te geven.
-
-The `Main()` method already contains a small demo application. Feel free to change it to your liking.
 
 ## Verwachte Werking
 

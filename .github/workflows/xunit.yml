@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        solution: ['RateMySetup']
+        solution: ['RateMySetup', 'LabradorGoesWoof']
       fail-fast: false    # Don't stop on fail (of tests)
       max-parallel: 1     # Don't run parallel as it will create push conflict
 
