@@ -1,4 +1,4 @@
-name: .NET Core Build with Tests
+name: .NET Build with Tests
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
       with:
         ref: master   # Make sure latest is used (which is not the case if committing from other job)
 
-    # Setup the .NET Core environment
+    # Setup the .NET environment
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
