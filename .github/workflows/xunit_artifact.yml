@@ -54,5 +54,5 @@ jobs:
       uses: actions/upload-artifact@v3
 
       with:
-        name: xunit-report-$GITHUB_REPOSITORY
+        name: xunit-report-$USER_REPO_NAME
         path: ${{github.workspace}}/${{ matrix.solution }}_report.md
