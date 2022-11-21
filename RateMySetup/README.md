@@ -13,10 +13,10 @@ Een voorbeeld van een rating wordt hieronder weergegeven (rating is 3/5):
 Om dit systeem gebruiksvriendelijk te maken en om er voor te zorgen dat het ook voor andere applicaties toepasbaar is, voorzien we een aantal argumenten die kunnen worden gekozen:
 
 * Het aantal `stars` kan je meegeven die het aantal "sterren" voorstelt die je geeft aan het product of de dienst
-* Het totaal aantal sterren dat je kan geven onder de vorm van een `maximum`
+* Het totaal aantal sterren dat je kan geven onder de vorm van `maximum`
 * Het symbool dat je wil gebruiken voor de "sterren"
 
-Merk op dat de string telkens begint met `<` en eindigt met `>`. Daarnaast dien je lege "sterren" een underscore `_` te gebruiken
+Merk op dat de string telkens begint met `<` en eindigt met `>`. Daarnaast dien je voor lege "sterren" een underscore `_` te gebruiken
 
 De methode die je dient te implementeren is de `Rate` methode in `RatingGenerator.cs`.
 

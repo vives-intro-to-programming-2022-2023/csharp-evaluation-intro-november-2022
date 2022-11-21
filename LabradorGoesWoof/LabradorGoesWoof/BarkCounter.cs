@@ -14,7 +14,7 @@ namespace LabradorGoesWoof
             // De methode CountBarks() telt hoe dikwijls een hond heeft geblaft in een uur.
             //
             // @input = string die een geluidsmeting voorstelt over een tijdspanne van 60 minuten. Elke minuut wordt voorgesteld door een
-            // karakter 'x' of een karakter 'B'. Een 'x' getekend dat de hond niet heeft geblaft, terwijl het karakter 'B' voorstelt dat de
+            // karakter 'x' of een karakter 'B'. Een 'x' betekend dat de hond niet heeft geblaft, terwijl het karakter 'B' voorstelt dat de
             // hond wel heeft geblaft.
             //
             // Voorbeeld: 

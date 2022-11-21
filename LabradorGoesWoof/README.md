@@ -8,7 +8,7 @@ Voorbeeld van output:
 xxBxxBxxxxBxxxxxxBBBxxxxxBxxBxxxxBBxxxxxBxxxxxxBxxxxxxBxxxxB
 ```
 
-De strings stelt een geluidsmeting voor over een tijdspanne van 60 minuten. Elke minuut wordt voorgesteld door een karakter `x` of een karakter `B`. Een `x` getekend dat de hond niet heeft geblaft binnen die minuut en het karakter `B` geeft aan dat de hond wel heeft geblaft.
+De strings stelt een geluidsmeting voor over een tijdspanne van 60 minuten. Elke minuut wordt voorgesteld door een karakter `x` of een karakter `B`. Een `x` betekend dat de hond niet heeft geblaft binnen die minuut en het karakter `B` geeft aan dat de hond wel heeft geblaft.
 
 Deze C# applicatie dient de string te parsen en terug te geven hoe dikwijls de hond in dat uur heeft geblaft.
 

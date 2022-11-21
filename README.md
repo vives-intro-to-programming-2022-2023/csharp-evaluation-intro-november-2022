@@ -10,7 +10,7 @@ Om te starten dien je eerst een eigen kopie te creëren van deze repository. Vol
 2. Accepteer de assignment
 3. Wacht tot je persoonlijke kopie is gemaakt (dit kan een paar minuten duren)
 4. Open de GitHub pagina van je repository
-5. Kopieer de ssh clone-url (groene knop) die eruit zoiets als `git@github.com:vives-introduction-to-programming-2022/csharp-evaluation-2-2022-<username>.git`
+5. Kopieer de ssh clone-url (groene knop) die eruit zoiets als `git@github.com:vives-intro-to-programming-2022-2023/csharp-evaluation-intro-november-2022-<username>.git`
 6. Ga naar een lokale directory op je systeem waar je de repository wenst te maken. Neem geen directory heel diep genest. Open PowerShell op deze locatie.
 7. Voer het commando `git clone` uit gevolgd door de ssh-url die je net kopieerde zoals hieronder aangegeven
 
@@ -21,7 +21,7 @@ git clone <place-ssh-url-here>
 Je zou een gelijkaardige output als deze moeten krijgen:
 
 ```text
-Cloning into 'csharp-evaluation-2-2022-BioBoost'...
+Cloning into 'csharp-evaluation-intro-november-2022-BioBoost'...
 Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts.
 remote: Enumerating objects: 185, done.
 remote: Compressing objects: 100% (109/109), done.
@@ -33,7 +33,7 @@ Resolving deltas: 100% (57/57), done.
 
 Aanpassingen dienen te worden gecommit en gepushed via de terminal (PowerShell).
 
-Ga naar je lokale kopie van de repository en start PowerShell hier op. Zorg dat je in de directory `csharp-evaluation-2-2022-<username>` zit.
+Ga naar je lokale kopie van de repository en start PowerShell hier op. Zorg dat je in de directory `csharp-evaluation-intro-november-2022-<username>` zit.
 
 1. Toevoegen van alle aangepaste files: `git add .`
 2. Committen van de aanpassingen en meegeven van een bericht: `git commit -m "My message goes here"`
@@ -50,4 +50,4 @@ Vervolgens dien je ook naar de GitHub pagina te surfen en te zorgen dat alles on
 | --- | --- | :---: |
 | [Rock Paper Scissors](./RockPaperScissors/README.md) | Implementeer blad - steen - schaar| `34%` |
 | [Rate My Setup](./RateMySetup/README.md) | Genereer een beoordeling van een dienst of product | `33%` |
-| [Labrador Goes Woof](./LabradorGoesWoof/README.md) | Genereer een beoordeling van een dienst of product | `33%` |
+| [Labrador Goes Woof](./LabradorGoesWoof/README.md) | Bepaal hoe dikwijls een hond blaft per uur | `33%` |
