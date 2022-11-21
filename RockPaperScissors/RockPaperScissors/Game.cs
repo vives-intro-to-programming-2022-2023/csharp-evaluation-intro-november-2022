@@ -27,7 +27,7 @@ namespace RockPaperScissors
 
 
 
-            return false;
+            return true;
         }
 
         public bool DidPlayerWin(string playerHand, string computerHand)
